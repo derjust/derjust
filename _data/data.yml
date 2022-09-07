@@ -1,34 +1,34 @@
-name: John Doe
+name: Sebastian Just
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: mail@sebastian-just.de
+  github: derjust
+  linkedin: sebastian-just
+  phone: +1 347 266 4396
   gitlab: 
-  twitter: 
+  twitter: derjust
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: German
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: MSc Software Engineering
+    time: 2021-2024
+    university: Drexel University Philadelphia, PA
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: BSc Business Computer Science
+    time: 2005-2009
+    university: Leibniz Akademie Hannover, Germany
 
 skills:
   - category: Backend
     skill: 
-      - Go
+      - Java
+      - Scala
       - Rust
   - category: Frontend
     skill:
@@ -36,16 +36,20 @@ skills:
       - Typescript
   - category: DevOps
     skill:
+      - Kubernetes, AWS EKS
+      - AWS ECS
       - Docker
-      - Kubernetes 
+      - Terraform
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Eleven years of hands-on experience as a software engineer, team lead, people manager, and technology architect in Java, Scala and JVM based technologies.
+
+  A self-motivated engineer who excels at learning and appropriately applying new technology and development processes, following common design patterns and test-driven development principles.
+
+  Managed project teams in agile and classic software development projects covering all phases including post-production support. People manager responsible for small teams’ annual and project reviews. Advocating mentor for their professional development.
+
+  Expert in designing and creating efficient architectures utilizing OOD, functional programming, messaging, and reactive streams. Strong focus on improving and standardization of the used methodology covering all relevant projects and teams.
 
 # Experience
 experience:
@@ -74,35 +78,67 @@ experience:
       Python, Tensorflow, Keras, Matlab
 
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - title: "API-Gateway ❤️ CloudWatch"
+    link: https://medium.com/@CloudSpout/api-gateway-%EF%B8%8F-cloudwatch-7b29713a7c25
+    authors: Sebastian Just
+    conference: 2020
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+  - title: "Market Reconstruction 2.0: A Financial Services Application of Google Bigtable and Google Dataflow"
+    link: https://cloud.google.com/customers/fis/FIS-Market-Reconstruction-25B-Load-Test.pdf
+    authors: Neil Palmer, Sal Sferrazza, Sebastian Just, Adam Najman
+    conference: GCP Next 16, 2016
+
+  - title: Transforming options market data with the Dataflow SDK
+    link: https://cloud.google.com/dataflow/pdf/TransformingOptionsMarketData.pdf
+    authors: Salvatore Sferrazza, Sebastian Just
+    conference: 12/2015
+
+  - title: Scaling to Build the Consolidated Audit Trail
+    link: https://cloud.google.com/bigtable/pdf/ConsolidatedAuditTrail.pdf
+    authors: Neil Palmer, Michael Sherman, Yingxia Wang, Sebastian Just
+    conference: 05/2015
+
+
+
 
 projects:
-  - title: Cool Project 
-    link: #
+  - title: spring-data-dynamodb
+    link: https://github.com/derjust/spring-data-dynamodb
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      DynamoDB connector for Spring. Project lead for 5+ years
 
-  - title: Cool Project 
-    link: #
+  - title: button-panel
+    link: https://github.com/cloudspout/cloudspout-button-panel
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      A simple Grafana panel that allows to integrate REST APIs directly into any dashboard
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - title: terraform-aws-office365-domains
+    link: https://github.com/cloudspout/terraform-aws-office365-domains
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Terraform module that helps to create the required zone entries to operate a self-managed Office365 domain.
+
+certificates:
+  - name: AWS Certified Solutions Architect – Associate
+    company: Amazon Web Services (AWS)
+    time: 2019
+    link: https://www.youracclaim.com/badges/f11744a2-c9ae-4663-8138-66d2c91ac4ce?source=linked_in_profile
+    details: 
+
+  - name: Leading with Finance
+    company: HBX | Harvard Business School
+    time: 2017
+    link: 
+    details: |
+      HBX Course Leading with Finance is a 6-week program to provide a thorough understanding of the principles of finance – a toolkit for making smart financial decisions and the confidence to clearly communicate those decisions to key internal and external stakeholders.
+
+  - name: Google Cloud Platform Developer Qualification Workshop (CP300A)
+    company: ROI Training
+    time: 2016
+    link: https://accredible.com/10052121
+    details:
+
+  - name: Sun Certified Programmer for the Java 2 Platform, Standard Edition 5.0
+    company: Sun Microsystems
+    time: 2006
+    link: 
+    details: 
