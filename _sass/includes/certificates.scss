@@ -6,8 +6,12 @@
         margin-bottom: 20px;
         .name {
             @include sub-header;
+
+            a {
+                color: var(--fg-color) !important
+            }
         }
-        .organization {
+        .company {
             @include body-text;
             font-weight: bold;
             .time {

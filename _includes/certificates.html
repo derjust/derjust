@@ -4,10 +4,14 @@
     <h2 class="title">Certificates</h2>
     {% for cert in certificates %}
         <div class="certificates-item">
-            <div class="role">
-                {{cert.name}}
+            <div class="name">
+                {% if cert.link %}
+                    <a href="{{cert.link}}" target="_blank">{{cert.name}}</a>
+                {% else %}
+                    {{cert.name}}
+                {% endif %}
             </div>
-            <div class="organization">
+            <div class="company">
                 {{cert.company}}
                 <span class="time">{{cert.time}}</span>
             </div>
