@@ -55,10 +55,8 @@ profile: |
   Expert in designing and creating efficient architectures utilizing OOD, functional programming, messaging, and reactive streams. Strong focus on improving and standardization of the used methodology covering all relevant projects and teams.
   </li></ul>
 # Experience
-experience:
-  - role: Manager Software Engineering I
-    time: 2019-Present
-    company: Comcast, USA
+projects:
+  - title: API Gateawy for Video Experiences
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -67,45 +65,45 @@ experience:
       fugiat nulla pariatur.
     technologies_used: | 
       Java, Spring Boot, Webflux/Reactor, Kubernetes, Terraform, OpenAPI
-  
-  - role: Process & Solution Architect
-    time: 2016-2019
-    company: FIS, USA
+
+  - title: Ingest pipeline for Video Metadata
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+      fugiat nulla pariatur.
+    technologies_used: | 
+      Java, Spring Boot, Webflux/Reactor, Kubernetes, Terraform, OpenAPI
+
+  - title: Life Insurance Workflow engines
     details: |
       Working on north-star projects using modern and upcoming technologies in the Finance and Media industry as architect, software engineer, technical project lead and mentor. 
     technologies_used: | 
       Java, Spring MVC, Ansible, Jenkins, .NET, BPM-N
 
+
+experience:
+  - role: Manager Software Engineering I
+    time: 2019-Present
+    company: Comcast, USA
+
+  - role: Process & Solution Architect
+    time: 2016-2019
+    company: FIS, USA
+
   - role: Lead Senior Consultant
     time: 2014-2016
     company: SunGard, USA
-    details: |
-      
-      <p>Note: FIS acquired SunGard on November 30, 2015.</p>
-    technologies_used: | 
-      Java, Node, Apache Felix, Google DataFlow & BigData, Apache HBase
 
   - role: Lead Senior Consultant
     time: 2009-2014
     company: SunGard, Germany
-    details: |
-      Worked on process automation and service orchestration in the Finance and Energy trading industry all over Europe as software engineer, architect, subproject lead and mentor. 
-      <br>
-      Also was leading and responsible for the second level support hotline for SunGard's BPM suite 'Infinity Process Platform' mitigating customer's production issues and interfacing with product management.
-    
-    technologies_used: | 
-      Java, Spring MVC, Ansible, Jenkins, .NET, Activity
 
   - role: Software Developer
-    time: 2005-009
+    time: 2005-2009
     company: RÖPERWEISE GmbH, Germany
-    details: |
-      Improving and supporting custom developed software for customer finance products:
-      <br />Migrated and improved the customer acquisition application including field service representative planning from Microsoft Access to aweb application. 
-      <br />This lowered the license and maintenance cost per agent desktop in the back office by 75% and significantly improved the feature delivery time due to a modernized code base.
-    technologies_used: | 
-      Spring, JSF, IceFaces, Tomcat, MSSQL, Hibernate, VBA, Ant
-
+ 
 publications:
   - title: "API-Gateway & CloudWatch"
     link: https://medium.com/@CloudSpout/api-gateway-%EF%B8%8F-cloudwatch-7b29713a7c25
@@ -127,10 +125,7 @@ publications:
     authors: Neil Palmer, Michael Sherman, Yingxia Wang, Sebastian Just
     conference: 05/2015
 
-
-
-
-projects:
+contributions:
   - title: spring-data-dynamodb
     link: https://github.com/derjust/spring-data-dynamodb
     details: |

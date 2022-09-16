@@ -1,11 +1,13 @@
-.projects {
+.contributions {
     .title {
         @include header;
     }
-    .project {
+    .contribution {
         margin-bottom: 20px;
-        .project-link {
+        .contribution-link {
             @include body-text;
+            font-weight: bold;
+
         }
         .details {
             @include body-text;

@@ -5,7 +5,8 @@
     .certificates-item {
         margin-bottom: 20px;
         .name {
-            @include sub-header;
+            //@include sub-header;
+            font-weight: bold;
 
             a {
                 color: var(--fg-color) !important

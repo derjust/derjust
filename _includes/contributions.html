@@ -1,0 +1,16 @@
+{% assign contributions = site.data.data.contributions %}
+{% if contributions %}
+<section class="contributions">
+    <h2 class="title">Contributions</h2>
+    {% for c in contributions %}
+        <div class="contribution">
+            <span>
+                <a class="contribution-link" href="{{c.link}}" target="_blank">
+                    {{c.title}}
+                </a>
+            </span>
+            <span class="details">- {{c.details}}</span>
+        </div>
+    {% endfor %}
+</section>
+{% endif %}

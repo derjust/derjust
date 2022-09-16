@@ -4,23 +4,20 @@
     }
     .experience-item {
         .role {
-            @include sub-header;
+            //@include sub-header;
+
+            text-decoration: none;
+            font-weight: bold;
+            @include body-text; 
         }
         .company {
             @include body-text;
-            font-weight: bold;
+            //font-weight: bold;
             .time {
                 float: right;
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
             }
-        }
-        .details {
-            @include body-text;
-        }
-        .technologies {
-            @include body-text;
-            font-style: italic;
         }
     }
 }
